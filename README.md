@@ -19,51 +19,102 @@ The application supports product discovery, shopping, checkout, order operations
 
 ## Screenshots
 
-Screenshots below are representative views captured from a local development instance. Database-backed lists and totals may differ with your own data.
+These are real UI captures from a local development instance, not mockups. They show the visible viewport, not the entire page or every interaction state. Click an image to open its full-size file. Customer, staff, and subscriber details are blurred in the relevant admin captures. Database-backed content and totals may differ with your data.
 
 ### Customer storefront
 
 | Homepage | Shop and product discovery |
 | --- | --- |
-| ![NovaZen homepage](docs/screenshots/home.png) | ![Shop listing and filters](docs/screenshots/shop.png) |
+| [![NovaZen homepage](docs/screenshots/home.png)](docs/screenshots/home.png) | [![Shop listing and filters](docs/screenshots/shop.png)](docs/screenshots/shop.png) |
 
 | Product details | Cart |
 | --- | --- |
-| ![Product detail page](docs/screenshots/product-detail.png) | ![Shopping cart](docs/screenshots/cart.png) |
+| [![Product detail page](docs/screenshots/product-detail.png)](docs/screenshots/product-detail.png) | [![Shopping cart](docs/screenshots/cart.png)](docs/screenshots/cart.png) |
 
 | Wishlist | Checkout |
 | --- | --- |
-| ![Customer wishlist](docs/screenshots/wishlist.png) | ![Checkout flow](docs/screenshots/checkout.png) |
+| [![Customer wishlist](docs/screenshots/wishlist.png)](docs/screenshots/wishlist.png) | [![Checkout flow](docs/screenshots/checkout.png)](docs/screenshots/checkout.png) |
 
 | Order tracking | Customer login |
 | --- | --- |
-| ![Order tracking page](docs/screenshots/order-tracking.png) | ![Customer login](docs/screenshots/customer-login.png) |
+| [![Order tracking page](docs/screenshots/order-tracking.png)](docs/screenshots/order-tracking.png) | [![Customer login](docs/screenshots/customer-login.png)](docs/screenshots/customer-login.png) |
 
 | Customer registration | About NovaZen |
 | --- | --- |
-| ![Customer registration](docs/screenshots/register.png) | ![About page](docs/screenshots/about.png) |
+| [![Customer registration](docs/screenshots/register.png)](docs/screenshots/register.png) | [![About page](docs/screenshots/about.png)](docs/screenshots/about.png) |
 
 | FAQ | Contact |
 | --- | --- |
-| ![Frequently asked questions](docs/screenshots/faq.png) | ![Contact page](docs/screenshots/contact.png) |
+| [![Frequently asked questions](docs/screenshots/faq.png)](docs/screenshots/faq.png) | [![Contact page](docs/screenshots/contact.png)](docs/screenshots/contact.png) |
 
 ### Administration
 
-| Product management | Category management |
+| Admin dashboard | Product management |
 | --- | --- |
-| ![Admin product catalog](docs/screenshots/admin-products.png) | ![Admin categories](docs/screenshots/admin-categories.png) |
+| [![Admin dashboard](docs/screenshots/admin-dashboard.png)](docs/screenshots/admin-dashboard.png) | [![Admin product catalog](docs/screenshots/admin-products.png)](docs/screenshots/admin-products.png) |
 
-| Banner management | Order management |
+| Category management | Product creation |
 | --- | --- |
-| ![Admin homepage banners](docs/screenshots/admin-banners.png) | ![Admin orders](docs/screenshots/admin-orders.png) |
+| [![Admin categories](docs/screenshots/admin-categories.png)](docs/screenshots/admin-categories.png) | [![Admin create product form](docs/screenshots/admin-create-product.png)](docs/screenshots/admin-create-product.png) |
 
-| Reports | Admin login |
+| Category creation | Brands |
 | --- | --- |
-| ![Admin reports](docs/screenshots/admin-reports.png) | ![Admin login](docs/screenshots/admin-login.png) |
+| [![Admin create category form](docs/screenshots/admin-create-category.png)](docs/screenshots/admin-create-category.png) | [![Admin brands](docs/screenshots/admin-brands.png)](docs/screenshots/admin-brands.png) |
+
+| Banner management | Gallery management |
+| --- | --- |
+| [![Admin homepage banners](docs/screenshots/admin-banners.png)](docs/screenshots/admin-banners.png) | [![Homepage gallery management](docs/screenshots/admin-gallery.png)](docs/screenshots/admin-gallery.png) |
+
+| Coupons | Order management |
+| --- | --- |
+| [![Coupon management](docs/screenshots/admin-coupons.png)](docs/screenshots/admin-coupons.png) | [![Admin orders](docs/screenshots/admin-orders.png)](docs/screenshots/admin-orders.png) |
+
+| Reports | Create order |
+| --- | --- |
+| [![Admin reports](docs/screenshots/admin-reports.png)](docs/screenshots/admin-reports.png) | [![Admin manual order form](docs/screenshots/admin-create-order.png)](docs/screenshots/admin-create-order.png) |
+
+| Create coupon | Static page SEO |
+| --- | --- |
+| [![Admin create coupon form](docs/screenshots/admin-create-coupon.png)](docs/screenshots/admin-create-coupon.png) | [![Static page SEO settings](docs/screenshots/admin-static-page-seo.png)](docs/screenshots/admin-static-page-seo.png) |
+
+| Product URL redirects | Customer administration |
+| --- | --- |
+| [![Product URL redirect management](docs/screenshots/admin-product-redirects.png)](docs/screenshots/admin-product-redirects.png) | [![Registered customer administration](docs/screenshots/admin-customers.png)](docs/screenshots/admin-customers.png) |
+
+| Staff user management | Contact-message inbox |
+| --- | --- |
+| [![Admin user management](docs/screenshots/admin-users.png)](docs/screenshots/admin-users.png) | [![Admin contact-message inbox](docs/screenshots/admin-contact-messages.png)](docs/screenshots/admin-contact-messages.png) |
+
+| Newsletter subscribers | Review moderation |
+| --- | --- |
+| [![Newsletter subscriber management](docs/screenshots/admin-newsletter-subscribers.png)](docs/screenshots/admin-newsletter-subscribers.png) | [![Admin review moderation](docs/screenshots/admin-reviews.png)](docs/screenshots/admin-reviews.png) |
+
+| Team profiles | Sister businesses |
+| --- | --- |
+| [![Admin team profile management](docs/screenshots/admin-team.png)](docs/screenshots/admin-team.png) | [![Admin sister-business management](docs/screenshots/admin-businesses.png)](docs/screenshots/admin-businesses.png) |
+
+| Roles and permissions | Admin login |
+| --- | --- |
+| [![Role and permission management](docs/screenshots/admin-roles-permissions.png)](docs/screenshots/admin-roles-permissions.png) | [![Admin login](docs/screenshots/admin-login.png)](docs/screenshots/admin-login.png) |
+
+These 36 images document representative screens, not every feature or state. In particular, the gallery does not currently include dedicated captures for customer account subpages, order detail/invoice/fraud-review screens, or every create/edit form. The feature catalog below describes those workflows from the implemented application; the absence of a screenshot does not imply the feature is missing.
 
 ## Features
 
-### Storefront and product catalog
+### Frontend: storefront and product catalog
+
+The customer-facing screens and their supported journeys are:
+
+| Screen or area | Features |
+| --- | --- |
+| Homepage | Promotional banners, category navigation, featured and top-selling products, flash sales, brands, reviews, team profiles, sister businesses, gallery content, and coupon popups. |
+| Shop | Product search by name, SKU, description, or category; nested-category selection; price, rating, and stock filters; and sorting by newest, price, rating, or popularity. |
+| Product details | Product images, price and availability, variants, reviews and ratings, product FAQs, related products, add-to-cart and buy-now actions. |
+| Cart and wishlist | Guest and signed-in shopping carts, quantity changes, item removal, coupon apply/remove, and wishlist add/remove. |
+| Checkout and payment | Guest or customer checkout with delivery/contact details, area- and weight-based shipping, cash on delivery, and the development-only demo online-payment flow. |
+| Order confirmation and tracking | Order confirmation, customer order history/detail, order lookup, signed public tracking links, and courier status when available. |
+| Customer account | Registration/login, account dashboard, profile and password management, address book, order history/details, and customer notifications. |
+| Information and support | About, FAQ, contact form, privacy, terms, shipping, returns, and warranty pages; newsletter signup and floating contact actions. |
 
 - Responsive customer-facing storefront with homepage, shop, product details, about, FAQ, contact, and policy pages.
 - Homepage content areas for promotional banners, categories, featured and top-selling products, flash sales, brands, reviews, team information, sister businesses, and gallery content.
@@ -88,20 +139,72 @@ Screenshots below are representative views captured from a local development ins
 - Customer order notifications with read, unread, open, and delete actions.
 - Product reviews, including guest review support, recommendation flagging, and admin review moderation.
 
-### Admin console and store operations
+### Admin panel and store operations
 
-- Protected admin dashboard with store overview and operational shortcuts.
-- Product administration for product details, categories, variants, inventory, images, and SEO data.
-- Category, brand, banner, gallery, coupon, review, team-member, and sister-business management.
-- Order list, order detail, manual order creation, order import, and downloadable import template.
-- Order status, payment status, delivery status, and customer-note updates.
-- Refund workflow and PDF invoice viewing/download.
-- Order fraud-check report, including optional external courier history lookup.
-- Optional Steadfast parcel creation with returned tracking code and consignment ID saved to the order.
-- Customer, contact-message, newsletter-subscriber, and notification administration.
-- Sales and customer reporting with report export.
-- Homepage and page SEO settings, product SEO fields, and product URL redirect management.
-- User, role, and permission administration.
+The authenticated admin console includes the following areas and workflows:
+
+#### Dashboard
+
+- Store KPIs: sales/revenue, order count, customer and product counts, estimated profit, today's activity, and current-versus-previous-month sales.
+- Operational alerts and counts for pending orders, pending/failed payments, unread contact messages, low-stock products, and out-of-stock products.
+- Daily, weekly, and monthly sales trends, plus recent orders, top-selling products, low-stock items, and recent contact messages.
+- Quick navigation for finding orders/products and creating a manual order.
+
+#### Catalog and merchandising
+
+- **Products:** search by product name, SKU, or category; view product details; create, edit, and delete according to access permissions. Product fields include name, slug, SKU, category, price/discount, weight, stock, descriptions, and draft/published/archived status. Mark products as featured, best seller, flash sale, or picked-for-you. Upload up to five product images with alt text, maintain product FAQs, and configure product SEO/social metadata.
+- **Categories:** create, edit, view, search, activate/deactivate, and delete categories; organize nested parent/child categories, images, descriptions, display order, and category SEO. Categories with products or child categories must be cleared before deletion.
+- **Brands:** add/edit/delete brands, upload brand logos, set the display mark and sort order, and toggle visibility.
+- **Banners:** upload and manage homepage-left, homepage-right, and promotional banners. Configure title, destination link, placement, display order, active status, alternative text, and caption. The homepage-right placement is limited to one banner at a time.
+- **Gallery:** upload, crop, preview, view, edit, and delete homepage gallery images; maintain title, alternative text, caption, event date, order, and visibility.
+- Product/category/banner/brand/gallery uploads use the configured public storage disk and the application's image optimization service where supported.
+
+#### Promotions and customer feedback
+
+- **Coupons:** create, search, edit, deactivate, and delete discount codes. Configure percentage or fixed discounts, minimum order value, start/end dates, usage limits, active status, and homepage popup behavior, including popup delay and image.
+- **Reviews:** search and moderate customer product reviews by approving, rejecting, or returning them to pending; delete reviews when needed.
+- **Homepage promotions:** manage active banners, flash-sale placement, popup coupon content, and product merchandising flags that populate storefront sections.
+
+#### Orders, fulfillment, and customers
+
+- **Order list and search:** view and paginate orders; search order number, registered customer name/email, or guest name/email. Filter by order status, payment status, delivery method, guest versus registered customer, and date range. Sort by newest/oldest, order total, or status. The list also provides links to order details and fraud checks.
+- **Order details:** inspect line items, customer identity/contact details, shipping address, subtotal, shipping, discounts, grand total, payment method/status and transaction ID, delivery method, courier/tracking information, internal note, and the order event history.
+- **Manual order creation:** create an order for an existing customer or a guest. Add available products and quantities, provide guest and shipping details as needed, select payment status/method and standard/express delivery, calculate shipping, reserve stock by decrementing inventory, and send order/low-stock notifications. Eligible unpaid non-COD orders receive the demo payment flow.
+- **CSV import/export template:** download a sample template and import order summary rows from CSV. Existing customers can be matched by email; duplicate order numbers are skipped, headers and statuses are checked, and created/skipped totals are reported. The template contains order-level fields only, not order line items, so CSV import does not recreate product rows or their inventory movements.
+- **Order and payment lifecycle:** supported order statuses are pending, confirmed, processing, packed, shipped, out for delivery, delivered, cancelled, and returned/refunded. Forward transitions are constrained: cancellation is available through packed, while return/refund is available after shipment. Update payment status (pending, paid, failed, refunded) and transaction ID independently. Invalid status transitions are rejected. Cancellation and return/refund status restore stock once.
+- **Discounts and notes:** apply or change a documented admin discount, with a reason, only while an order is active and unpaid; the payable total and invoice are updated and the customer is notified. Save an internal order note for staff.
+- **Delivery and tracking:** update standard/express delivery, courier name, and tracking number. A new tracking number can trigger customer/admin notifications. Steadfast parcel creation stores its tracking code and consignment ID and avoids creating another parcel when one is already recorded; the order detail can display a Steadfast status lookup when tracking is available.
+- **Refund recording:** record a refund amount up to the order total, mark the order returned/refunded and payment refunded, mark refund status completed, restore inventory, and notify the customer. This admin action records the refund in NovaZen; it does not call a payment-provider refund API.
+- **Invoices:** view an order invoice or download it as a PDF.
+- **Fraud review:** compare the order's phone, email, and shipping address against previous orders, highlight matching failed/cancelled/returned orders and COD review signals, and optionally request a BD Courier customer report when configured.
+- **Order history and notifications:** record operational events such as manual creation, CSV import, status/payment changes, discounts, deliveries, and refunds. Relevant order changes notify customers in-app when registered and by email when an address is available; selected events also create admin notifications.
+- **Customers:** review registered customer records and commerce history through the customer/order administration screens.
+
+#### Store content and communications
+
+- **Team members:** add, view, edit, reorder, activate/deactivate, and remove homepage team profiles with role, biography, image, email, and LinkedIn details.
+- **Sister businesses:** manage business name, description, logo, website URL, order, and visibility for the homepage business-group section.
+- **Contact messages:** search and review incoming messages, update their lifecycle status (`new`, `read`, `replied`, or `closed`), and delete them.
+- **Newsletter subscribers:** search subscribers by email and remove subscriber records.
+- **Notifications:** retrieve admin notifications and unread counts; mark notifications read/unread or delete them. Customer notifications are managed in the customer account area.
+- **Admin profile:** update name, email, phone, city, address, and avatar; change the password after verifying the current password.
+
+#### Analytics and reports
+
+- Select report type and date range, inspect summary metrics and detailed rows, and export report data as CSV.
+- Report groups cover sales (daily, weekly, monthly, yearly, date-range, product/category/brand/customer breakdowns), orders and status summaries, revenue/profit/cost/discount/delivery/refund, product performance and current stock, inventory valuation, customer acquisition/retention/spending/lifetime value, payment methods and outcomes, delivery/courier outcomes, coupon usage and revenue, and a store summary.
+- Product-view and stock-movement report options currently display an explanatory notice because view tracking and inventory movement history are not stored yet; these reports do not claim to provide historical data.
+
+#### SEO and access administration
+
+- **Homepage SEO:** edit search title/description, social sharing image, Google Search Console verification value, and official social profile URLs.
+- **Static page SEO:** configure search title and description for supported information pages.
+- **Product SEO:** set focus/secondary keywords, canonical URL, index/follow directives, Open Graph and Twitter metadata, and image metadata on products.
+- **Product URL redirects:** create, edit, and delete permanent redirects from old product URLs to current destinations.
+- **User management:** create, search/view, edit, assign roles/direct permissions, update account details/password, and remove staff/customer accounts according to safeguards.
+- **Roles and permissions:** create/edit/delete roles and permissions, inspect role membership, and assign permissions to roles.
+- Seeded roles are `Customer`, `Store Admin`, `Marketing/Content Editor`, `Support Staff`, and `Super Admin`. The permission catalog covers dashboard, product, order and customer operations, coupons, content, banners, brands, categories, gallery, reviews, newsletter subscribers, team members, contact messages, landing pages, reports, access, users, roles, and permissions.
+- Landing-page management route names are currently compatibility routes that redirect to the admin dashboard; they are not a standalone landing-page editor.
 
 ### Roles and permissions
 
