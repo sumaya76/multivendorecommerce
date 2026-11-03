@@ -363,13 +363,17 @@ The PHPUnit configuration uses an in-memory SQLite database for automated tests.
 
 The project declares the MIT license in `composer.json`.
 
-## Project author
+## Project Author
+
+**Sumaya Akter**  
+Full-Stack Software Engineer
 
 - **Portfolio:** [sumayaportfolio.lovable.app](https://sumayaportfolio.lovable.app/)
 - **GitHub:** [github.com/sumaya76](https://github.com/sumaya76)
 - **LinkedIn:** [linkedin.com/in/sumaya-1920921a5](https://www.linkedin.com/in/sumaya-1920921a5/)
+- **Phone:** 01690253986
+- **Email:** [sumaya0akter45@gmail.com](mailto:sumaya0akter45@gmail.com)
 
-Best regards,  
-**Sumaya Akter**  
-Phone: 01690253986  
-Email: [sumaya0akter45@gmail.com](mailto:sumaya0akter45@gmail.com)
+---
+
+*Designed and developed with a focus on scalable architecture, secure APIs, and seamless user experiences.*
